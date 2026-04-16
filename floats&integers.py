@@ -24,7 +24,7 @@ print(temp2)
 temp=56.8926
 temp=str(temp)
 print(type(temp))
-temp=temp[3]+"."+temp[4:8]
+temp=temp[3]+"."+temp[4:]
 print(temp)
 temp=float(temp)
 print(type(temp))
