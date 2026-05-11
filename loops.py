@@ -33,7 +33,7 @@ for i in attempts:
 		print("Welcome")
 		break
 	else:
-		remaining_tries=tries-i
+		remaining_tries=len(attempts)-i
 		if remaining_tries>0:
 			print(f'incorrect pin try again {remaining_tries} attempts remaining')
 		else:
